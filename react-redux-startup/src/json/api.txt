@@ -1,0 +1,105 @@
+http://ec2-35-154-228-43.ap-south-1.compute.amazonaws.com/user-login/api/customer
+
+{
+ "cmd": "registration",
+ "data": {
+  "firstName": "Test",
+  "lastName": "Admin",
+  "mobile": "123456789",
+  "email": "test@admin.com",
+  "pan": "AP12345678",
+  "password": "1234",
+  "role": "basic"
+ }
+}
+
+
+{
+  "status": 1,
+  "jwt": null,
+  "data": {
+    "userId": 9,
+    "msg": "User Created Successfully"
+  },
+  "error": null
+}
+
+http://ec2-35-154-228-43.ap-south-1.compute.amazonaws.com/rightinvoices/company
+test this with payload
+{
+ "cmd": "login",
+ "data": {
+  "email": "sandy@gmail.com",
+  "password": "test12345"
+ }
+}
+
+
+
+
+
+                <div className="middle-xs" style={{marginTop: 5}}>
+                  <span style={{ fontSize: "80%", paddingTop: "3px", fontStyle: 'normal' }}>
+                    Please choose
+                    </span>
+                  <FlatButton
+                    label="OTP to your mobile"
+                    secondary={true}
+                    onTouchTap={handleSubmit(onMobileOTPshowClick)}
+                    style={{right: 12}}
+                  />
+                  <span style={{ fontSize: "80%", paddingTop: "3px", position: 'relative', right: 12, fontStyle: 'normal' }}>
+                    or
+                  </span>
+                  <FlatButton
+                    label="Email Verification"
+                    secondary={true}
+                    style={{ right: 10 }}
+                    onTouchTap={handleSubmit(onEmailOTPshowClick)}
+                  />
+                  <i style={{ fontSize: "80%", paddingTop: "3px", position: 'relative', right: 24, fontStyle: 'normal' }}>
+                    to verify your identity.
+                  </i>
+                </div>
+
+
+
+{
+	"cmd": "profile-update",
+	"data": {
+		"account": {
+			"id": "135",
+			"email": "rajashekary4u@gmail.com",
+			"role": "admin",
+			"mobile": "9000017009"
+		},
+		"profile": {
+			"id": "",
+			"firstName": "test",
+			"lastName": "first",
+			"pan": "test1234",
+			"dob": "1984-08-19 12:33:33",
+			"gender": "M"
+		},
+		"address": {
+			"id": "",
+			"lane": "whitefield",
+			"street": "ektatowers",
+			"city": "hyderabad",
+			"state": "andhrapradesh",
+			"country": "india",
+			"zipCode": "500084"
+		},
+		"company": {
+			"id": "",
+			"name": "test",
+			"type": "pharma",
+			"currency": "USD",
+			"tan" : "txyz"
+		},
+		"image": {
+			"id": "",
+			"imgSrc": ""
+		}
+	}
+}

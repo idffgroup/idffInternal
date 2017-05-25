@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "code": "abjcjhef",
+        "topic_id": 11,
+        "location_id": 1,
+        "classroom_id": 1,
+        "enrolled": 1,
+        "teacher": {
+            "name": "teacher Name"
+        }
+    },
+    {
+        "id": 2,
+        "code": "abjcjhef",
+        "topic_id": 12,
+        "location_id": 2,
+        "classroom_id": 2,
+        "enrolled": 2,
+        "teacher": {
+            "name": "teacher Name"
+        }
+    },
+    {
+        "id": 3,
+        "code": "abjcjhef",
+        "topic_id": 13,
+        "location_id": 2,
+        "classroom_id": 3,
+        "enrolled": 3,
+        "teacher": {
+            "name": "teacher Name"
+        }
+    }
+]

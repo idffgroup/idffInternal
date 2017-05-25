@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "student_id":"abjcjhef",
+      "method": 11,
+      "amount_paid":5000,
+      "invoice_no": "fuhu",
+    },
+     {
+      "id": 2,
+      "student_id":"abjcjhef",
+      "method": 12,
+      "amount_paid":10000,
+      "invoice_no": "fjuf",
+    },
+     {
+      "id": 3,
+      "student_id":"abjcjhef",
+      "method": 12,
+      "amount_paid":6000,
+      "invoice_no": "dfhuhfui",
+    },
+]

@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "teacher_id":"abjcjhef",
+      "paid_on": 11,
+      "amount":1000,
+      "mode": "cheque",
+      "actual_amount": 100000,
+    },
+    {
+      "id": 2,
+      "teacher_id":"abjcjhef",
+      "paid_on": 12,
+      "amount":10000,
+      "mode": "cheque",
+      "actual_amount": 100000,
+    },
+    {
+      "id": 3,
+      "teacher_id":"abjcjhef",
+      "paid_on": 13,
+      "amount":10000,
+      "mode": "cheque",
+      "actual_amount": 100000,
+    },
+]
